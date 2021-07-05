@@ -168,7 +168,7 @@
     
 //    setup username field
     self.usernameTextField = [[UITextField alloc] initWithFrame:CGRectMake(0.0, 0.0, 303.0, 40.0)];
-    self.usernameTextField.center = [self calculateCenterFor:self.usernameTextField fromAbove:self.topLabel withOffset:120.0];
+    self.usernameTextField.center = [self calculateCenterFor:self.usernameTextField fromAbove:self.topLabel withOffset:78.0];
     
     self.usernameTextField.placeholder = @"Login";
     [self.usernameTextField setTextContentType:UITextContentTypeUsername];
